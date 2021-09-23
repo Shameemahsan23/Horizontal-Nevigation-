@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, ;
+    background: grey;
+}
+
+#nav_bar{
+display: flex;
+
+}
+
+.inner_nav{
+    margin: 0;
+    padding: 0;
+    background: rgb( 153, 141,141);
+    width: 96%;
+    height: 30px;
+    border-radius:5px;
+}
+
+.inner_nav h2{
+    font-size: 20px;
+    color: greenyellow;
+    margin-top: 2px;
+    margin-left: 30px;
+    float: left;
+}
+
+.inner_nav span{
+    color: gainsboro;
+}
+
+.inner_nav ul{
+    margin: 2px;
+    padding-top: 5px;
+    list-style: none;
+    text-align: right;
+}
+
+.inner_nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+}
+
+.inner_nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.inner_nav ul li a:hover{
+    color: gold;
+}
